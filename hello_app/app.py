@@ -14,4 +14,4 @@ if __name__ == '__main__':
 
 today = date.today()
 formatted_date = today.strftime('%Y-%m-%d')
-print(f'Today is {formatted_date}')
+print(formatted_date)
