@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return f'My server IP address is {os.environ[194.67.103.244]}'
+    return f'My server IP address is {os.environ['194.67.103.244']}'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
