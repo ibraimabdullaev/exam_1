@@ -22,4 +22,4 @@ jobs:
       - name: Build application
         run: python3 hello_app/app.py &
       - name: Run tests
-        run: bash tests/test.sh
+        run: bash tests/test_output.sh
